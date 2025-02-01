@@ -1,4 +1,5 @@
-# Bootcamp [Name] Website
+# Bootcamp webathon
+Website
 
 This repository contains the source code for the website created to commemorate and showcase the Bootcamp [Name] experience.  It serves as a central hub for participants to access learning materials, revisit memories through the photo gallery, and stay connected.
 
