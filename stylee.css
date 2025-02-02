@@ -1,0 +1,45 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://media.giphy.com/media/3o7abKhOpu0NwenH3O/giphy.gif') no-repeat center center fixed;
+            background-size: cover;
+            text-align: center;
+            font-family: Arial, sans-serif;
+            color: white;
+        }
+        header{
+            display: flex;
+            justify-content: space-between;
+            align-items: top;
+            padding: 30px 10%;
+            background-color: rgba(98, 90, 90, 0.21);
+            color: rgb(25, 24, 24);
+        }
+        .coming-soon {
+            background: rgba(0, 0, 0, 0.6);
+            padding: 20px 40px;
+            border-radius: 10px;
+            animation: fadeIn 2s ease-in-out;
+        }
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+        h1 {
+            font-size: 50px;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 20px;
+        }
